@@ -1,0 +1,31 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Summary Statistics for Class Targets
+
+Data=DATA
+
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent    Label
+
+  BAD          0           0           4771      80.0503         
+  BAD          1           1           1189      19.9497         
+
+
+Data=TRAIN
+
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent    Label
+
+  BAD          0           0           2385      80.0604         
+  BAD          1           1            594      19.9396         
+
+
+Data=VALIDATE
+
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent    Label
+
+  BAD          0           0           2386      80.0403         
+  BAD          1           1            595      19.9597         

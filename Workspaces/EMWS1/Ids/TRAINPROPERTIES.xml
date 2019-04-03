@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?><_ROOT_  DataSource="hmeq" Scope="LOCAL" Role="TRAIN" Library="SAMPSIO" Table="HMEQ" NCols="13"
+ NObs="5960" NBytes="656384" Segment="" DataSourceRole="TRAIN" OutputType="VIEW" ForceRun="N"
+ ComputeStatistics="N" DataSelection="DATASOURCE" NewTable="" MetaAdvisor="BASIC"
+ ApplyIntervalLevelLowerLimit="Y" IntervalLowerLimit="20" ApplyMaxPercentMissing="Y"
+ MaxPercentMissing="50" ApplyMaxClassLevels="Y" MaxClassLevels="20" IdentifyEmptyColumns="Y"
+ VariableValidation="STRICT" NewVariableRole="REJECT" DropMapVariables="Y" DsId="hmeq"
+ DsSampleName="" DsSampleSizeType="" DsSampleSize="" DsCreatedBy="jmmorr01" DsCreateDate="1857243985"
+ DsModifiedBy="jmmorr01" DsModifyDate="1857243985.2" DsScope="LOCAL" Sample="D" SampleSizeType="PERCENT"
+ SampleSizePercent="20" SampleSizeObs="10000" DBPassThrough="Y" RunAction="Train"
+ Component="DataSource" RawCreateTime="1857244030.5" CreateTime="07NOV2018:21:07:10"
+ Description="" Data="SAMPSIO.HMEQ" CMeta="WORK.M3RJ2XW_" RunId="b8bfc953-230f-47b4-905f-9d41f0934293"
+ RawLastTimeRun="1857244054.2" RawRunTime="9.2030000687" LastTimeRun="07NOV2018:21:07:34"
+ RunTime="0 Hr. 0 Min. 9.20 Sec.">
+<VARIABLEPROPERTIES/>
+<FILEPROPERTIES/>
+</_ROOT_>

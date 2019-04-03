@@ -1,0 +1,72 @@
+*------------------------------------------------------------*
+User:                jmmorr01
+Date:                November 07, 2018
+Time:                21:08:59
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      INTERVAL          10
+INPUT      NOMINAL            2
+TARGET     BINARY             1
+ 
+ 
+ 
+ 
+Partition Summary
+ 
+                                     Number of
+Type             Data Set          Observations
+ 
+DATA        EMWS1.Stat_TRAIN           5960
+TRAIN       EMWS1.Part_TRAIN           2979
+VALIDATE    EMWS1.Part_VALIDATE        2981
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Summary Statistics for Class Targets
+ 
+Data=DATA
+ 
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent    Label
+ 
+  BAD          0           0           4771      80.0503
+  BAD          1           1           1189      19.9497
+ 
+ 
+Data=TRAIN
+ 
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent    Label
+ 
+  BAD          0           0           2385      80.0604
+  BAD          1           1            594      19.9396
+ 
+ 
+Data=VALIDATE
+ 
+            Numeric    Formatted    Frequency
+Variable     Value       Value        Count      Percent    Label
+ 
+  BAD          0           0           2386      80.0403
+  BAD          1           1            595      19.9597

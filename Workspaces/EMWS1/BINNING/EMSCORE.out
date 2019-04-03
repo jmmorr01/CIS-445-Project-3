@@ -1,0 +1,18 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+                         Gini       Level for     Calculated      New                                       Gini
+Obs    Variable       Statistic    Interactive       Role        Role       Level           Label         Ordering
+
+  1    IMP_DEBTINC      52.626      INTERVAL       Input        Default    INTERVAL    Imputed DEBTINC        1   
+  2    INDELINQ         27.069      INTERVAL       Input        Default    INTERVAL                           2   
+  3    IMP_CLAGE        24.681      INTERVAL       Input        Default    INTERVAL    Imputed CLAGE          3   
+  4    IMP_NINQ         21.326      INTERVAL       Input        Default    INTERVAL    Imputed NINQ           4   
+  5    IMP_JOB          14.317      NOMINAL        Rejected     Default    NOMINAL     Imputed JOB            5   
+  6    LOAN             12.733      INTERVAL       Rejected     Default    INTERVAL                           6   
+  7    IMP_MORTDUE       8.233      INTERVAL       Rejected     Default    INTERVAL    Imputed MORTDUE        7   
+  8    IMP_CLNO          6.666      INTERVAL       Rejected     Default    INTERVAL    Imputed CLNO           8   
+  9    IMP_VALUE         6.340      INTERVAL       Rejected     Default    INTERVAL    Imputed VALUE          9   
+ 10    IMP_REASON        2.763      NOMINAL        Rejected     Default    NOMINAL     Imputed REASON        10   
+ 11    INYOJ             2.034      INTERVAL       Rejected     Default    INTERVAL                          11   
+ 12    INDEROG           0.000      INTERVAL       Rejected     Default    INTERVAL                          12   

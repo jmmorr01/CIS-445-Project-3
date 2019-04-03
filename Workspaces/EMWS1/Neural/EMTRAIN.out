@@ -1,0 +1,373 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Variable Summary
+
+          Measurement    Frequency
+ Role        Level         Count
+
+INPUT      INTERVAL          10   
+INPUT      NOMINAL            2   
+TARGET     BINARY             1   
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Model Events
+
+                                  Number
+                   Measurement      of
+Target    Event       Level       Levels      Order       Label
+
+ BAD        1        BINARY          2      Descending         
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Predicted and decision variables
+
+Type         Variable    Label
+
+TARGET        BAD                        
+PREDICTED     P_BAD1     Predicted: BAD=1
+RESIDUAL      R_BAD1     Residual: BAD=1 
+PREDICTED     P_BAD0     Predicted: BAD=0
+RESIDUAL      R_BAD0     Residual: BAD=0 
+FROM          F_BAD      From: BAD       
+INTO          I_BAD      Into: BAD       
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The NEURAL Procedure
+
+Preliminary       Starting         Objective         Number
+ Training          Random           Function           of        Terminating
+    Run             Seed             Value         Iterations     Criteria
+
+        1               12345    0.330109304782           10                
+        2          1029836536    0.322291614492           10                
+        3          1134979935    0.341153826871           10                
+        4           843860532    0.336086832472           10                
+        5          1287720965    0.314540439404           10                
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The NEURAL Procedure
+
+                    Optimization Start
+                   Parameter Estimates
+                                                 Gradient
+                                                Objective
+  N Parameter                    Estimate        Function
+
+  1 IMP_CLAGE_H11               -0.244690       -0.000499
+  2 IMP_CLNO_H11                 0.785292        0.003283
+  3 IMP_DEBTINC_H11              1.210317       -0.001008
+  4 IMP_DELINQ_H11              -0.629350        0.001923
+  5 IMP_DEROG_H11                0.227014        0.004475
+  6 IMP_MORTDUE_H11             -1.333618        0.000815
+  7 IMP_NINQ_H11                -0.061124        0.002165
+  8 IMP_VALUE_H11                0.002361     0.000063585
+  9 IMP_YOJ_H11                  0.335853        0.003338
+ 10 LOAN_H11                    -1.287036        0.001250
+ 11 IMP_CLAGE_H12                0.345393       -0.000784
+ 12 IMP_CLNO_H12                -0.588147       -0.002235
+ 13 IMP_DEBTINC_H12             -0.808362        0.001360
+ 14 IMP_DELINQ_H12              -0.347653       -0.002267
+ 15 IMP_DEROG_H12               -0.250864       -0.000236
+ 16 IMP_MORTDUE_H12              0.301630        0.000571
+ 17 IMP_NINQ_H12                 0.039763        0.001252
+ 18 IMP_VALUE_H12               -0.434491     0.000049366
+ 19 IMP_YOJ_H12                  0.039940       -0.000744
+ 20 LOAN_H12                    -0.217201     0.000085006
+ 21 IMP_CLAGE_H13                0.067234       -0.002797
+ 22 IMP_CLNO_H13                -0.334561        0.002816
+ 23 IMP_DEBTINC_H13             -0.060022        0.002271
+ 24 IMP_DELINQ_H13               0.340283       -0.002311
+ 25 IMP_DEROG_H13                0.352901       -0.000205
+ 26 IMP_MORTDUE_H13             -0.060125       -0.017271
+ 27 IMP_NINQ_H13                 0.253905       -0.001976
+ 28 IMP_VALUE_H13               -0.073567       -0.013159
+ 29 IMP_YOJ_H13                 -0.144291        0.014111
+ 30 LOAN_H13                     0.129224       -0.007424
+ 31 IMP_CLAGE_H14                0.011938        0.001781
+ 32 IMP_CLNO_H14                 0.198802       -0.001020
+ 33 IMP_DEBTINC_H14             -2.909044        0.001053
+ 34 IMP_DELINQ_H14              -0.396690        0.001630
+ 35 IMP_DEROG_H14               -0.150319        0.001187
+ 36 IMP_MORTDUE_H14             -0.026403        0.003360
+ 37 IMP_NINQ_H14                -0.758419       -0.001372
+ 38 IMP_VALUE_H14               -0.187466        0.003085
+ 39 IMP_YOJ_H14                  0.987196       -0.002016
+ 40 LOAN_H14                     0.568112        0.003274
+ 41 IMP_CLAGE_H15               -0.454141       -0.008629
+ 42 IMP_CLNO_H15                -0.198529        0.001178
+ 43 IMP_DEBTINC_H15             -1.414371     0.000056247
+ 44 IMP_DELINQ_H15               0.239053        0.002047
+ 45 IMP_DEROG_H15               -0.241172        0.002746
+ 46 IMP_MORTDUE_H15              0.196934       -0.004908
+ 47 IMP_NINQ_H15                -0.210599        0.005649
+ 48 IMP_VALUE_H15                0.308809       -0.005892
+ 49 IMP_YOJ_H15                  0.527613       -0.001085
+ 50 LOAN_H15                    -0.110820       -0.006880
+ 51 IMP_JOBMgr_H11              -1.114107        0.001300
+ 52 IMP_JOBOffice_H11           -0.370808    -0.000065082
+ 53 IMP_JOBOther_H11            -0.065092        0.000136
+ 54 IMP_JOBProfExe_H11           0.179172        0.000132
+ 55 IMP_JOBSales_H11            -0.399744        0.000123
+ 56 IMP_REASONDebtCon_H11        0.469632        0.003408
+ 57 IMP_JOBMgr_H12              -0.181230       -0.000821
+ 58 IMP_JOBOffice_H12            1.060621       -0.000468
+ 59 IMP_JOBOther_H12             0.173093       -0.001114
+ 60 IMP_JOBProfExe_H12           0.581960     0.000064508
+ 61 IMP_JOBSales_H12            -1.211001        0.001063
+ 62 IMP_REASONDebtCon_H12       -0.319598        0.000320
+ 63 IMP_JOBMgr_H13               0.369386        0.003146
+ 64 IMP_JOBOffice_H13           -0.325204        0.001018
+ 65 IMP_JOBOther_H13             0.092371        0.002319
+ 66 IMP_JOBProfExe_H13          -0.016389        0.000216
+ 67 IMP_JOBSales_H13            -0.246268        0.002457
+ 68 IMP_REASONDebtCon_H13        0.014053        0.001654
+ 69 IMP_JOBMgr_H14               0.294553       -0.001390
+ 70 IMP_JOBOffice_H14           -0.609733     0.000056896
+ 71 IMP_JOBOther_H14            -0.199484       -0.001161
+ 72 IMP_JOBProfExe_H14           0.502872     0.000067221
+ 73 IMP_JOBSales_H14            -0.199310       -0.000145
+ 74 IMP_REASONDebtCon_H14       -0.629480       -0.002279
+ 75 IMP_JOBMgr_H15               0.032414        0.001323
+ 76 IMP_JOBOffice_H15            0.357339       -0.000489
+ 77 IMP_JOBOther_H15            -0.176742       -0.000467
+ 78 IMP_JOBProfExe_H15           0.336355       -0.000811
+ 79 IMP_JOBSales_H15             0.552412        0.000784
+ 80 IMP_REASONDebtCon_H15       -0.451779       -0.003042
+ 81 BIAS_H11                    -1.608515        0.001006
+ 82 BIAS_H12                     2.285739       -0.001312
+ 83 BIAS_H13                    -0.077924       -0.004138
+ 84 BIAS_H14                    -0.805115        0.001419
+ 85 BIAS_H15                     0.412102       -0.004962
+ 86 H11_BAD1                     1.477540        0.002867
+ 87 H12_BAD1                    -2.685656        0.000331
+ 88 H13_BAD1                     2.629529       -0.002053
+ 89 H14_BAD1                    -1.691154        0.002308
+ 90 H15_BAD1                     2.119809       -0.001676
+ 91 BIAS_BAD1                    0.478170       -0.001338
+
+Value of Objective Function = 0.3145404394
+
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The NEURAL Procedure
+
+Levenberg-Marquardt Optimization
+
+
+Minimum Iterations                                0
+Maximum Iterations                               50
+Maximum Function Calls                   2147483647
+Maximum CPU Time                              14400
+ABSGCONV Gradient Criterion                 0.00001
+GCONV Gradient Criterion                       1E-8
+GCONV2 Gradient Criterion                         0
+ABSFCONV Function Criterion                       0
+FCONV Function Criterion                     0.0001
+FCONV2 Function Criterion                         0
+FSIZE Parameter                                   0
+ABSXCONV Parameter Change Criterion               0
+XCONV Parameter Change Criterion                  0
+XSIZE Parameter                                   0
+ABSCONV Function Criterion             0.0018348522
+Trust Region Initial Radius Factor                1
+Singularity Tolerance (SINGULAR)               1E-8
+
+Levenberg-Marquardt Optimization
+
+Scaling Update of More (1978)
+
+Parameter Estimates              91
+
+                                             Optimization Start
+
+Active Constraints                                  0  Objective Function                       0.3145404394
+Max Abs Gradient Element                 0.0172708705  Radius                                              1
+
+
+                                                                                                         Ratio
+                                                                                                       Between
+                                                                                                        Actual
+                                                                 Objective     Max Abs                     and
+                     Function         Active        Objective     Function    Gradient               Predicted
+Iter     Restarts       Calls    Constraints         Function       Change     Element     Lambda       Change
+
+   1            0           3              0          0.31048      0.00406      0.0241      0.124        0.364
+   2            0           4              0          0.30588      0.00459      0.0119      0.116        0.411
+   3            0           5              0          0.30085      0.00503      0.0177      0.122        0.419
+   4            0           6              0          0.29534      0.00551      0.0163      0.138        0.419
+   5            0           7              0          0.28794      0.00739      0.0192      0.124        0.567
+   6            0           9              0          0.28498      0.00296      0.0191     0.0657        0.207
+   7            0          10              0          0.28369      0.00130      0.0215     0.0615       0.0793
+   8            0          11              0          0.27625      0.00744     0.00735      0.365        0.584
+   9            0          12              0          0.27442      0.00183     0.00828     0.0776        0.618
+  10            0          13              0          0.27369     0.000732     0.00832     0.0831        0.217
+  11            0          15              0          0.27229      0.00140     0.00673      0.478        0.483
+  12            0          16              0          0.27180     0.000494     0.00461      0.148        0.550
+  13            0          17              0          0.27160     0.000199     0.00401      0.191        0.170
+  14            0          18              0          0.27115     0.000448     0.00664      0.224        0.334
+  15            0          19              0          0.27096     0.000192     0.00476      0.223        0.125
+  16            0          20              0          0.27069     0.000267     0.00966      0.241        0.178
+  17            0          21              0          0.27024     0.000450     0.00692      0.219        0.246
+  18            0          22              0          0.26994     0.000305     0.00941      0.255        0.198
+  19            0          23              0          0.26929     0.000644     0.00582      0.176        0.400
+  20            0          24              0          0.26928     0.000016     0.00852      0.235       0.0108
+  21            0          25              0          0.26844     0.000836     0.00310      0.759        0.861
+  22            0          26              0          0.26804     0.000404     0.00165      0.102        0.821
+  23            0          29              0          0.26798     0.000057     0.00348      0.313        0.305
+  24            0          30              0          0.26791     0.000069     0.00240      0.304        0.300
+  25            0          31              0          0.26790     0.000013     0.00440      0.351       0.0615
+  26            0          32              0          0.26779     0.000105    0.000610      0.988        0.573
+  27            0          33              0          0.26775     0.000041    0.000961      0.381        0.868
+  28            0          34              0          0.26768     0.000074     0.00108      0.172        0.836
+  29            0          35              0          0.26764     0.000042     0.00466     0.0793        0.236
+  30            0          37              0          0.26756     0.000079     0.00241      0.343        0.274
+  31            0          39              0          0.26750     0.000057     0.00256      0.955        0.576
+  32            0          40              0          0.26747     0.000029    0.000670      0.329        0.928
+  33            0          41              0          0.26742     0.000047     0.00103      0.155        0.837
+  34            0          42              0          0.26736     0.000059     0.00206     0.0699        0.504
+  35            0          44              0          0.26732     0.000041     0.00294      0.760        0.485
+  36            0          45              0          0.26730     0.000020    0.000898      0.286        0.620
+  37            0          46              0          0.26729     0.000012     0.00142      0.336        0.334
+  38            0          47              0          0.26728     0.000014     0.00125      0.366        0.303
+  39            0          48              0          0.26727     0.000010     0.00163      0.407        0.215
+  40            0          49              0          0.26725     0.000014     0.00130      0.394        0.272
+  41            0          50              0          0.26724     9.494E-6     0.00166      0.413        0.196
+  42            0          51              0          0.26723     0.000014     0.00131      0.392        0.256
+  43            0          52              0          0.26722      8.78E-6     0.00168      0.413        0.180
+  44            0          53              0          0.26721     0.000013     0.00133      0.390        0.242
+  45            0          54              0          0.26720     8.156E-6     0.00170      0.413        0.166
+
+                                            Optimization Results
+
+Iterations                                         45  Function Calls                                     56
+Jacobian Calls                                     47  Active Constraints                                  0
+Objective Function                       0.2671984764  Max Abs Gradient Element                 0.0016960467
+Lambda                                   0.4132055822  Actual Over Pred Change                  0.1658298733
+Radius                                   0.0095080649                                                       
+
+Convergence criterion (FCONV=0.0001) satisfied.                                                   
+
+NOTE: At least one element of the gradient is greater than 1e-3.
+
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+
+The NEURAL Procedure
+
+                   Optimization Results
+                   Parameter Estimates
+                                                 Gradient
+                                                Objective
+  N Parameter                    Estimate        Function
+
+  1 IMP_CLAGE_H11               -0.580846    -0.000001556
+  2 IMP_CLNO_H11                 1.076354     0.000012612
+  3 IMP_DEBTINC_H11              2.147693    -0.000003125
+  4 IMP_DELINQ_H11              -1.019132     0.000001362
+  5 IMP_DEROG_H11               -0.138331     0.000015876
+  6 IMP_MORTDUE_H11             -1.737115    -0.000001776
+  7 IMP_NINQ_H11                 0.233198    -0.000002007
+  8 IMP_VALUE_H11               -0.411585    -0.000008573
+  9 IMP_YOJ_H11                  0.464597     0.000001971
+ 10 LOAN_H11                    -1.522442    -0.000006113
+ 11 IMP_CLAGE_H12                0.579676    -0.000016005
+ 12 IMP_CLNO_H12                -0.649798     0.000055504
+ 13 IMP_DEBTINC_H12             -2.594640     0.000066989
+ 14 IMP_DELINQ_H12              -0.414201    -0.000003601
+ 15 IMP_DEROG_H12               -0.516112        0.000244
+ 16 IMP_MORTDUE_H12              0.648938    -0.000082255
+ 17 IMP_NINQ_H12                 0.207801    -0.000015795
+ 18 IMP_VALUE_H12               -0.832492        0.000104
+ 19 IMP_YOJ_H12                  0.127330    -0.000025457
+ 20 LOAN_H12                    -0.207686     0.000011975
+ 21 IMP_CLAGE_H13               -0.034208       -0.001650
+ 22 IMP_CLNO_H13                -0.168111        0.000280
+ 23 IMP_DEBTINC_H13             -0.252988       -0.000268
+ 24 IMP_DELINQ_H13               0.175840        0.000239
+ 25 IMP_DEROG_H13                0.160067        0.000192
+ 26 IMP_MORTDUE_H13              0.015553     0.000043438
+ 27 IMP_NINQ_H13                 0.167738     0.000059392
+ 28 IMP_VALUE_H13               -0.005017       -0.000278
+ 29 IMP_YOJ_H13                 -0.128369    -4.119522E-8
+ 30 LOAN_H13                    -0.004157    -0.000087147
+ 31 IMP_CLAGE_H14                0.101584        0.001696
+ 32 IMP_CLNO_H14                 0.050254       -0.000401
+ 33 IMP_DEBTINC_H14             -9.449950     0.000055368
+ 34 IMP_DELINQ_H14              -1.687022     0.000077457
+ 35 IMP_DEROG_H14                0.106034    -0.000057326
+ 36 IMP_MORTDUE_H14             -0.663229        0.000212
+ 37 IMP_NINQ_H14                -0.288631    -0.000029424
+ 38 IMP_VALUE_H14                0.315832        0.000252
+ 39 IMP_YOJ_H14                  0.207350    -0.000056893
+ 40 LOAN_H14                    -0.375740        0.000184
+ 41 IMP_CLAGE_H15                0.100319       -0.000129
+ 42 IMP_CLNO_H15                -0.031592     0.000071164
+ 43 IMP_DEBTINC_H15             -1.797391    -0.000028978
+ 44 IMP_DELINQ_H15               0.137548     0.000007455
+ 45 IMP_DEROG_H15               -0.158054     0.000027564
+ 46 IMP_MORTDUE_H15              0.102806    -0.000005513
+ 47 IMP_NINQ_H15                -0.416984    -0.000056879
+ 48 IMP_VALUE_H15                0.261540     0.000019191
+ 49 IMP_YOJ_H15                  0.345630     0.000055070
+ 50 LOAN_H15                     0.096408    8.0423559E-8
+ 51 IMP_JOBMgr_H11              -1.767064     0.000008407
+ 52 IMP_JOBOffice_H11            0.321799     0.000005932
+ 53 IMP_JOBOther_H11             0.565539    -0.000012095
+ 54 IMP_JOBProfExe_H11           0.589753     0.000013222
+ 55 IMP_JOBSales_H11            -1.744805     0.000003517
+ 56 IMP_REASONDebtCon_H11        0.831662     0.000016229
+ 57 IMP_JOBMgr_H12               0.187048    -0.000001558
+ 58 IMP_JOBOffice_H12            1.804633    -0.000007545
+ 59 IMP_JOBOther_H12             1.001574    -0.000031219
+ 60 IMP_JOBProfExe_H12           0.309872     0.000014404
+ 61 IMP_JOBSales_H12            -3.407579     0.000044457
+ 62 IMP_REASONDebtCon_H12       -0.276740    -0.000025704
+ 63 IMP_JOBMgr_H13               0.142615    -0.000003056
+ 64 IMP_JOBOffice_H13            0.037691    -0.000038370
+ 65 IMP_JOBOther_H13             0.124306       -0.000358
+ 66 IMP_JOBProfExe_H13           0.065715    -0.000029462
+ 67 IMP_JOBSales_H13            -0.522797        0.000129
+ 68 IMP_REASONDebtCon_H13        0.121662       -0.000187
+ 69 IMP_JOBMgr_H14               0.462793    -0.000034115
+ 70 IMP_JOBOffice_H14            0.245106     0.000008595
+ 71 IMP_JOBOther_H14            -0.159727        0.000119
+ 72 IMP_JOBProfExe_H14           0.161658    -0.000022377
+ 73 IMP_JOBSales_H14            -1.488442    -0.000005435
+ 74 IMP_REASONDebtCon_H14        0.386223     0.000079474
+ 75 IMP_JOBMgr_H15               0.762281     0.000026525
+ 76 IMP_JOBOffice_H15            0.314867     0.000014309
+ 77 IMP_JOBOther_H15             0.081536    -0.000023584
+ 78 IMP_JOBProfExe_H15           0.339032     0.000021144
+ 79 IMP_JOBSales_H15            -1.227330     0.000004858
+ 80 IMP_REASONDebtCon_H15       -0.827238    -0.000060895
+ 81 BIAS_H11                    -2.895190    -0.000009567
+ 82 BIAS_H12                     3.774210       -0.000136
+ 83 BIAS_H13                     0.014854       -0.000518
+ 84 BIAS_H14                    -2.912744        0.000165
+ 85 BIAS_H15                     1.075109     0.000032335
+ 86 H11_BAD1                     2.008556     0.000012042
+ 87 H12_BAD1                    -5.931384        0.000220
+ 88 H13_BAD1                     7.107306    -0.000097291
+ 89 H14_BAD1                    -2.748320    -0.000009868
+ 90 H15_BAD1                     3.066567    -0.000041193
+ 91 BIAS_BAD1                    0.876827    -0.000074877
+
+Value of Objective Function = 0.2671984764
+

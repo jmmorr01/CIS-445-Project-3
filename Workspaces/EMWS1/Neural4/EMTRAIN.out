@@ -1,0 +1,262 @@
+ 
+                                                                                               
+ 
+ 
+Variable Summary
+
+          Measurement    Frequency
+ Role        Level         Count
+
+INPUT       NOMINAL          1    
+INPUT       ORDINAL          3    
+TARGET      BINARY           1    
+ 
+                                                                                               
+ 
+ 
+Model Events
+
+                                  Number
+                   Measurement      of
+Target    Event       Level       Levels      Order       Label
+
+ BAD        1        BINARY          2      Descending         
+ 
+                                                                                               
+ 
+ 
+Predicted and decision variables
+
+Type         Variable    Label
+
+TARGET        BAD                        
+PREDICTED     P_BAD1     Predicted: BAD=1
+RESIDUAL      R_BAD1     Residual: BAD=1 
+PREDICTED     P_BAD0     Predicted: BAD=0
+RESIDUAL      R_BAD0     Residual: BAD=0 
+FROM          F_BAD      From: BAD       
+INTO          I_BAD      Into: BAD       
+ 
+                                                                                               
+ 
+ 
+
+The NEURAL Procedure
+
+Preliminary       Starting         Objective         Number
+ Training          Random           Function           of        Terminating
+    Run             Seed             Value         Iterations     Criteria
+
+        1               12345    0.392577798915           10                
+        2           505338228    0.393011925881           10                
+        3           108862300    0.393247728115           10                
+        4           936745137    0.407610972854           10                
+        5          1056274352    0.393452088016           10                
+ 
+                                                                                               
+ 
+ 
+
+The NEURAL Procedure
+
+                                    Optimization Start
+                                    Parameter Estimates
+                                                  Gradient           Lower           Upper
+                                                 Objective           Bound           Bound
+  N Parameter                     Estimate        Function      Constraint      Constraint
+
+  1 G_GRP_IMP_DEBTINC0_H11       -0.250382        0.000113               .               .
+  2 G_GRP_IMP_DEBTINC1_H11        0.303675       -0.000537               .               .
+  3 GRP_IMP_CLAGE2_H11        9.999999E-11        0.121248           1E-10               .
+  4 GRP_IMP_CLAGE3_H11        9.999999E-11        0.132316           1E-10               .
+  5 GRP_IMP_CLAGE4_H11               1E-10        0.095813           1E-10               .
+  6 GRP_IMP_NINQ1_H11                1E-10        0.009846           1E-10               .
+  7 GRP_IMP_NINQ2_H11             0.076527       -0.000174           1E-10               .
+  8 GRP_IMP_NINQ3_H11             0.072743    -0.000028454           1E-10               .
+  9 GRP_INDELINQ3_H11             0.128388       -0.000392           1E-10               .
+ 10 BIAS_H11                     -0.070385       -0.000380               .               .
+ 11 H11_BAD1                      4.928899       -0.000264               .               .
+ 12 BIAS_BAD1                    -1.017229       -0.000103               .               .
+
+            Optimization Start
+            Parameter Estimates
+                              Active
+                              Bound
+  N Parameter                 Constraint
+
+  1 G_GRP_IMP_DEBTINC0_H11                
+  2 G_GRP_IMP_DEBTINC1_H11                
+  3 GRP_IMP_CLAGE2_H11         Lower BC   
+  4 GRP_IMP_CLAGE3_H11         Lower BC   
+  5 GRP_IMP_CLAGE4_H11         Lower BC   
+  6 GRP_IMP_NINQ1_H11          Lower BC   
+  7 GRP_IMP_NINQ2_H11                     
+  8 GRP_IMP_NINQ3_H11                     
+  9 GRP_INDELINQ3_H11                     
+ 10 BIAS_H11                              
+ 11 H11_BAD1                              
+ 12 BIAS_BAD1                             
+
+Value of Objective Function = 0.3925777989
+
+
+
+           First Order Lagrange Multipliers
+                           
+ 
+                                              Lagrange
+          Active Constraint                 Multiplier
+
+                G_GRP_IMP_DEBTINC0_H11               0
+                G_GRP_IMP_DEBTINC0_H11               0
+                G_GRP_IMP_DEBTINC0_H11               0
+                G_GRP_IMP_DEBTINC0_H11               0
+
+
+  Projected Gradient
+ 
+     Free    Projected
+Dimension     Gradient
+
+        1     0.000113
+        2     0.000113
+        3     0.000113
+        4     0.000113
+        5     0.000113
+        6     0.000113
+        7     0.000113
+        8     0.000113
+ 
+                                                                                               
+ 
+ 
+
+The NEURAL Procedure
+
+Levenberg-Marquardt Optimization
+
+
+Minimum Iterations                                    0
+Maximum Iterations                                   50
+Maximum Function Calls                       2147483647
+Maximum CPU Time                                  14400
+ABSGCONV Gradient Criterion                     0.00001
+GCONV Gradient Criterion                           1E-8
+GCONV2 Gradient Criterion                             0
+ABSFCONV Function Criterion                           0
+FCONV Function Criterion                         0.0001
+FCONV2 Function Criterion                             0
+FSIZE Parameter                                       0
+ABSXCONV Parameter Change Criterion                   0
+XCONV Parameter Change Criterion                      0
+XSIZE Parameter                                       0
+ABSCONV Function Criterion                 0.0018348522
+Trust Region Initial Radius Factor                    1
+Singularity Tolerance (SINGULAR)                   1E-8
+Constraint Precision (LCEPS)                       1E-8
+Linearly Dependent Constraints (LCSING)            1E-8
+Releasing Active Constraints (LCDEACT)                .
+
+Levenberg-Marquardt Optimization
+
+Scaling Update of More (1978)
+
+Parameter Estimates              12
+Lower Bounds                      7
+Upper Bounds                      0
+
+                                      Optimization Start
+
+Active Constraints                           4  Objective Function                0.3925777989
+Max Abs Gradient Element          0.1323164615  Radius                                       1
+
+
+                                                                                         Ratio
+                                                                                       Between
+                                                                                        Actual
+                                                       Objective   Max Abs                 and
+                 Function       Active      Objective   Function  Gradient           Predicted
+Iter   Restarts     Calls  Constraints       Function     Change   Element   Lambda     Change
+
+   1          0         3            4        0.39249   0.000088    0.0123   0.0160      0.521
+   2          0         4            4        0.39235   0.000139   0.00772   0.0105      0.719
+   3          0         5            4        0.39229   0.000058    0.0106  0.00716      0.605
+   4          0         6            4        0.39224   0.000055   0.00913  0.00489      0.677
+   5          0         7            4        0.39221   0.000031   0.00966  0.00344      0.629
+   6          0         9            4        0.39219   0.000016   0.00359  0.00823      0.727
+   7          0        10            4        0.39218   6.972E-6   0.00234  0.00764      0.804
+   8          0        11            4        0.39217   0.000011   0.00339  0.00343      0.846
+   9          0        13            4        0.39216   9.714E-6   0.00260  0.00291      0.858
+  10          0        14            4        0.39216   2.397E-7    0.0173  0.00122     0.0135
+  11          0        15            4        0.39214   0.000020   0.00451  0.00173      0.702
+  12          0        16            4        0.39214   4.128E-6   0.00612  0.00153      0.588
+  13          0        17            4        0.39213   6.124E-6   0.00148  0.00129      0.834
+  14          0        19            4        0.39213   3.035E-6   0.00247  0.00128      0.853
+
+                                     Optimization Results
+
+Iterations                                  14  Function Calls                              21
+Jacobian Calls                              16  Active Constraints                           4
+Objective Function                0.3921294673  Max Abs Gradient Element          0.0024678976
+Lambda                            0.0012761836  Actual Over Pred Change            0.852917452
+Radius                            0.1043679497                                                
+
+Convergence criterion (FCONV=0.0001) satisfied.                                                
+
+NOTE: At least one element of the gradient is greater than 1e-3.
+
+ 
+                                                                                               
+ 
+ 
+
+The NEURAL Procedure
+
+                           Optimization Results
+                            Parameter Estimates
+                                                  Gradient    Active
+                                                 Objective    Bound
+  N Parameter                     Estimate        Function    Constraint
+
+  1 G_GRP_IMP_DEBTINC0_H11       -0.071270        0.000272                
+  2 G_GRP_IMP_DEBTINC1_H11        0.086820       -0.002468                
+  3 GRP_IMP_CLAGE2_H11        9.999999E-11        0.428311     Lower BC   
+  4 GRP_IMP_CLAGE3_H11        9.999999E-11        0.464375     Lower BC   
+  5 GRP_IMP_CLAGE4_H11               1E-10        0.334247     Lower BC   
+  6 GRP_IMP_NINQ1_H11                1E-10        0.035242     Lower BC   
+  7 GRP_IMP_NINQ2_H11             0.021709       -0.000485                
+  8 GRP_IMP_NINQ3_H11             0.021135    -0.000090830                
+  9 GRP_INDELINQ3_H11             0.036488       -0.001584                
+ 10 BIAS_H11                     -0.063401       -0.001245                
+ 11 H11_BAD1                     16.769699    -0.000017624                
+ 12 BIAS_BAD1                    -0.286846    -0.000079113                
+
+Value of Objective Function = 0.3921294673
+
+
+
+           First Order Lagrange Multipliers
+                           
+ 
+                                              Lagrange
+          Active Constraint                 Multiplier
+
+ Lower BC       GRP_IMP_CLAGE2_H11            0.428311
+ Lower BC       GRP_IMP_CLAGE3_H11            0.464375
+ Lower BC       GRP_IMP_CLAGE4_H11            0.334247
+ Lower BC       GRP_IMP_NINQ1_H11             0.035242
+
+
+  Projected Gradient
+ 
+     Free    Projected
+Dimension     Gradient
+
+        1     0.000272
+        2    -0.002468
+        3    -0.000485
+        4 -0.000090830
+        5    -0.001584
+        6    -0.001245
+        7 -0.000017624
+        8 -0.000079113

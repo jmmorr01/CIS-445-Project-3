@@ -1,0 +1,40 @@
+<PFDNode x="66" y="858" id="BINNING" title="Interactive Binning"></PFDNode>
+<PFDNode x="231" y="594" id="CNTRL" title="Control Point"></PFDNode>
+<PFDNode x="614" y="1266" id="CNTRL2" title="Control Point (2)"></PFDNode>
+<PFDNode x="264" y="1254" id="CNTRL3" title="Control Point (3)"></PFDNode>
+<PFDNode x="231" y="66" id="Ids" title="HMEQ"></PFDNode>
+<PFDNode x="231" y="462" id="Impt" title="Impute"></PFDNode>
+<PFDNode x="264" y="1386" id="MdlComp" title="Model Comparison"></PFDNode>
+<PFDNode x="396" y="726" id="Neural" title="No Transform, 5"></PFDNode>
+<PFDNode x="561" y="726" id="Neural2" title="No Transform, 3"></PFDNode>
+<PFDNode x="231" y="726" id="Neural3" title="No Transform, 1"></PFDNode>
+<PFDNode x="66" y="1122" id="Neural4" title="Transform, 1"></PFDNode>
+<PFDNode x="264" y="1122" id="Neural5" title="Transform, 3"></PFDNode>
+<PFDNode x="429" y="1122" id="Neural6" title="Transform, 5"></PFDNode>
+<PFDNode x="231" y="330" id="Part" title="Data Partition"></PFDNode>
+<PFDNode x="271" y="1493" id="Report" title="Reporter"></PFDNode>
+<PFDNode x="231" y="198" id="Stat" title="StatExplore"></PFDNode>
+<PFDNode x="66" y="726" id="Trans" title="Transform Variables"></PFDNode>
+<PFDNode x="66" y="990" id="Varsel" title="Variable Selection"></PFDNode>
+<PFDLink id='1' fromId='Ids' toId='Stat'></PFDLink>
+<PFDLink id='2' fromId='Stat' toId='Part'></PFDLink>
+<PFDLink id='3' fromId='Part' toId='Impt'></PFDLink>
+<PFDLink id='4' fromId='Impt' toId='CNTRL'></PFDLink>
+<PFDLink id='5' fromId='CNTRL' toId='Trans'></PFDLink>
+<PFDLink id='6' fromId='CNTRL' toId='Neural'></PFDLink>
+<PFDLink id='7' fromId='CNTRL' toId='Neural2'></PFDLink>
+<PFDLink id='8' fromId='CNTRL' toId='Neural3'></PFDLink>
+<PFDLink id='9' fromId='Trans' toId='BINNING'></PFDLink>
+<PFDLink id='10' fromId='BINNING' toId='Varsel'></PFDLink>
+<PFDLink id='11' fromId='Varsel' toId='Neural4'></PFDLink>
+<PFDLink id='12' fromId='Varsel' toId='Neural5'></PFDLink>
+<PFDLink id='13' fromId='Varsel' toId='Neural6'></PFDLink>
+<PFDLink id='14' fromId='Neural3' toId='CNTRL2'></PFDLink>
+<PFDLink id='15' fromId='Neural' toId='CNTRL2'></PFDLink>
+<PFDLink id='16' fromId='Neural2' toId='CNTRL2'></PFDLink>
+<PFDLink id='17' fromId='Neural4' toId='CNTRL3'></PFDLink>
+<PFDLink id='18' fromId='Neural5' toId='CNTRL3'></PFDLink>
+<PFDLink id='19' fromId='Neural6' toId='CNTRL3'></PFDLink>
+<PFDLink id='20' fromId='CNTRL3' toId='MdlComp'></PFDLink>
+<PFDLink id='21' fromId='CNTRL2' toId='MdlComp'></PFDLink>
+<PFDLink id='22' fromId='MdlComp' toId='Report'></PFDLink>

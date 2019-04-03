@@ -1,0 +1,233 @@
+*------------------------------------------------------------*
+User:                jmmorr01
+Date:                November 07, 2018
+Time:                21:43:55
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+TARGET      BINARY           1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fit Statistics
+Model Selection based on Valid: Misclassification Rate (_VMISC_)
+ 
+                                                        Train:                      Valid:
+                                          Valid:       Average        Train:       Average
+Selected   Model        Model       Misclassification  Squared  Misclassification  Squared
+ Model     Node      Description           Rate         Error          Rate         Error
+ 
+   Y      Neural   No Transform, 5       0.14089       0.08272       0.11346       0.10467
+          Neural2  No Transform, 3       0.15096       0.10503       0.13897       0.11996
+          Neural5  Transform, 3          0.16169       0.11745       0.16448       0.12220
+          Neural6  Transform, 5          0.16773       0.11586       0.15979       0.12078
+          Neural3  No Transform, 1       0.16840       0.11741       0.15643       0.12642
+          Neural4  Transform, 1          0.17310       0.12354       0.17288       0.12519
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fit Statistics Table
+Target: BAD
+ 
+Data Role=Train
+ 
+Statistics
+ 
+Train: Bin-Based Two-Way Kolmogorov-Smirnov Probability Cutoff
+Train: Kolmogorov-Smirnov Statistic
+Train: Akaike's Information Criterion
+Train: Average Squared Error
+Train: Roc Index
+Train: Average Error Function
+Train: Cumulative Percent Captured Response
+Train: Percent Captured Response
+Selection Criterion: Valid: Misclassification Rate
+Train: Degrees of Freedom for Error
+Train: Model Degrees of Freedom
+Train: Total Degrees of Freedom
+Train: Divisor for ASE
+Train: Error Function
+Train: Final Prediction Error
+Train: Gain
+Train: Gini Coefficient
+Train: Bin-Based Two-Way Kolmogorov-Smirnov Statistic
+Train: Kolmogorov-Smirnov Probability Cutoff
+Train: Cumulative Lift
+Train: Lift
+Train: Maximum Absolute Error
+Train: Misclassification Rate
+Train: Mean Squared Error
+Train: Sum of Frequencies
+Train: Number of Estimated Weights
+Train: Root Average Squared Error
+Train: Cumulative Percent Response
+Train: Percent Response
+Train: Root Final Prediction Error
+Train: Root Mean Squared Error
+Train: Schwarz's Bayesian Criterion
+Train: Sum of Squared Errors
+Train: Sum of Case Weights Times Freq
+Train: Number of Wrong Classifications
+ 
+ Neural    Neural2    Neural5    Neural6    Neural3    Neural4
+ 
+   0.23       0.20       0.20       0.19       0.19       0.19
+   0.66       0.52       0.51       0.52       0.47       0.47
+1827.90    2154.25    2287.13    2308.43    2313.36    2362.46
+   0.08       0.11       0.12       0.12       0.12       0.12
+   0.91       0.85       0.84       0.84       0.81       0.80
+   0.28       0.34       0.37       0.37       0.38       0.39
+  45.62      40.40      34.57      34.75      35.86      31.19
+  20.88      17.00      16.35      15.39      14.98      14.26
+   0.14       0.15       0.16       0.17       0.17       0.17
+2888.00    2924.00    2945.00    2923.00    2960.00    2967.00
+  91.00      55.00      34.00      56.00      19.00      12.00
+2979.00    2979.00    2979.00    2979.00    2979.00    2979.00
+5958.00    5958.00    5958.00    5958.00    5958.00    5958.00
+1645.90    2044.25    2219.13    2196.43    2275.36    2338.46
+   0.09       0.11       0.12       0.12       0.12       0.12
+ 356.08     303.90     245.58     247.36     258.47     211.80
+   0.82       0.70       0.67       0.68       0.62       0.60
+   0.65       0.52       0.51       0.52       0.47       0.46
+   0.21       0.18       0.19       0.16       0.17       0.15
+   4.56       4.04       3.46       3.47       3.58       3.12
+   4.17       3.40       3.27       3.08       3.00       2.85
+   1.00       0.99       0.99       0.99       0.99       0.97
+   0.11       0.14       0.16       0.16       0.16       0.17
+   0.09       0.11       0.12       0.12       0.12       0.12
+2979.00    2979.00    2979.00    2979.00    2979.00    2979.00
+  91.00      55.00      34.00      56.00      19.00      12.00
+   0.29       0.32       0.34       0.34       0.34       0.35
+  90.94      80.54      68.91      69.26      71.48      62.17
+  83.22      67.79      65.19      61.34      59.73      56.86
+   0.30       0.33       0.35       0.35       0.34       0.35
+   0.29       0.33       0.34       0.34       0.34       0.35
+2373.84    2484.21    2491.11    2644.39    2427.35    2434.45
+ 492.83     625.77     699.77     690.26     699.52     736.08
+5958.00    5958.00    5958.00    5958.00    5958.00    5958.00
+ 338.00     414.00     490.00     476.00     466.00     515.00
+ 
+ 
+Data Role=Valid
+ 
+Statistics
+ 
+Valid: Kolmogorov-Smirnov Statistic
+Valid: Average Squared Error
+Valid: Roc Index
+Valid: Average Error Function
+Valid: Bin-Based Two-Way Kolmogorov-Smirnov Probability Cutoff
+Valid: Cumulative Percent Captured Response
+Valid: Percent Captured Response
+Valid: Divisor for VASE
+Valid: Error Function
+Valid: Gain
+Valid: Gini Coefficient
+Valid: Bin-Based Two-Way Kolmogorov-Smirnov Statistic
+Valid: Kolmogorov-Smirnov Probability Cutoff
+Valid: Cumulative Lift
+Valid: Lift
+Valid: Maximum Absolute Error
+Valid: Misclassification Rate
+Valid: Mean Squared Error
+Valid: Sum of Frequencies
+Valid: Root Average Squared Error
+Valid: Cumulative Percent Response
+Valid: Percent Response
+Valid: Root Mean Squared Error
+Valid: Sum of Squared Errors
+Valid: Sum of Case Weights Times Freq
+Valid: Number of Wrong Classifications
+ 
+ Neural    Neural2    Neural5    Neural6    Neural3    Neural4
+ 
+   0.56       0.45       0.51       0.49       0.42       0.49
+   0.10       0.12       0.12       0.12       0.13       0.13
+   0.85       0.79       0.81       0.82       0.78       0.78
+   0.35       0.40       0.39       0.39       0.41       0.40
+   0.25       0.20       0.26       0.25       0.19       0.28
+  40.17      37.14      33.35      32.28      32.94      30.48
+  16.97      16.64      15.76      13.28      12.77      11.74
+5962.00    5962.00    5962.00    5962.00    5962.00    5962.00
+2097.38    2364.58    2351.50    2309.21    2423.38    2403.67
+ 300.47     270.31     232.50     221.78     228.42     203.84
+   0.70       0.58       0.62       0.63       0.56       0.56
+   0.56       0.44       0.51       0.49       0.42       0.48
+   0.23       0.19       0.25       0.25       0.18       0.27
+   4.00       3.70       3.32       3.22       3.28       3.04
+   3.40       3.33       3.15       2.66       2.56       2.35
+   1.00       1.00       0.99       0.99       0.98       0.97
+   0.14       0.15       0.16       0.17       0.17       0.17
+   0.10       0.12       0.12       0.12       0.13       0.13
+2981.00    2981.00    2981.00    2981.00    2981.00    2981.00
+   0.32       0.35       0.35       0.35       0.36       0.35
+  79.93      73.91      66.37      64.23      65.55      60.65
+  67.79      66.44      62.93      53.05      51.01      46.87
+   0.32       0.35       0.35       0.35       0.36       0.35
+ 624.03     715.21     728.57     720.09     753.72     746.38
+5962.00    5962.00    5962.00    5962.00    5962.00    5962.00
+ 420.00     450.00     482.00     500.00     502.00     516.00
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Event Classification Table
+Model Selection based on Valid: Misclassification Rate (_VMISC_)
+ 
+ Model        Model       Data              Target    False     True      False     True
+ Node      Description    Role      Target  Label   Negative  Negative  Positive  Positive
+ 
+Neural4  Transform, 1     TRAIN      BAD               384      2254       131       210
+Neural4  Transform, 1     VALIDATE   BAD               356      2226       160       239
+Neural5  Transform, 3     TRAIN      BAD               373      2268       117       221
+Neural5  Transform, 3     VALIDATE   BAD               344      2248       138       251
+Neural6  Transform, 5     TRAIN      BAD               367      2276       109       227
+Neural6  Transform, 5     VALIDATE   BAD               360      2246       140       235
+Neural3  No Transform, 1  TRAIN      BAD               379      2298        87       215
+Neural3  No Transform, 1  VALIDATE   BAD               395      2279       107       200
+Neural   No Transform, 5  TRAIN      BAD               256      2303        82       338
+Neural   No Transform, 5  VALIDATE   BAD               295      2261       125       300
+Neural2  No Transform, 3  TRAIN      BAD               358      2329        56       236
+Neural2  No Transform, 3  VALIDATE   BAD               374      2310        76       221
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*

@@ -1,0 +1,142 @@
+NOTE: PROCEDURE PRINTTO used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+      
+
+1 
+Traverser: Traverser invoked.  MPCONNECT command is sas. 
+Traverser: Beginning flow traversal 
+*------------------------------------------------------------* 
+* 
+* Ids : Beginning Update 
+* datetime : 07NOV2018:21:25:14 
+* 
+*------------------------------------------------------------* 
+24480      %let _HPDMGRIDHOST=;
+24481      %let _HPDMGRIDINSTALLLOC=;
+24482      %let _HPDMGRIDDATASERVER=;
+24483      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Ids : End Update 
+* datetime : 07NOV2018:21:25:14 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "PART" 
+Traverser: WaitingNode "IMPT" 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "TRANS" 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Stat : Beginning Update 
+* datetime : 07NOV2018:21:25:15 
+* 
+*------------------------------------------------------------* 
+24504      %let _HPDMGRIDHOST=;
+24505      %let _HPDMGRIDINSTALLLOC=;
+24506      %let _HPDMGRIDDATASERVER=;
+24507      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Stat : End Update 
+* datetime : 07NOV2018:21:25:15 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "IMPT" 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "TRANS" 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Part : Beginning Update 
+* datetime : 07NOV2018:21:25:16 
+* 
+*------------------------------------------------------------* 
+24526      %let _HPDMGRIDHOST=;
+24527      %let _HPDMGRIDINSTALLLOC=;
+24528      %let _HPDMGRIDDATASERVER=;
+24529      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Part : End Update 
+* datetime : 07NOV2018:21:25:16 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "TRANS" 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Impt : Beginning Update 
+* datetime : 07NOV2018:21:25:17 
+* 
+*------------------------------------------------------------* 
+24549      %let _HPDMGRIDHOST=;
+24550      %let _HPDMGRIDINSTALLLOC=;
+24551      %let _HPDMGRIDDATASERVER=;
+24552      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Impt : End Update 
+* datetime : 07NOV2018:21:25:17 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "TRANS" 
+traverser_readyNode_note 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Trans : Beginning Update 
+* datetime : 07NOV2018:21:25:18 
+* 
+*------------------------------------------------------------* 
+24572      %let _HPDMGRIDHOST=;
+24573      %let _HPDMGRIDINSTALLLOC=;
+24574      %let _HPDMGRIDDATASERVER=;
+24575      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Trans : End Update 
+* datetime : 07NOV2018:21:25:19 
+* 
+*------------------------------------------------------------* 
+Traverser: Run Completed 
+24576      proc printto;
+24577      run;
+

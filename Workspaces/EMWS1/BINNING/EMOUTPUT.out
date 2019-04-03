@@ -1,0 +1,68 @@
+*------------------------------------------------------------*
+User:                jmmorr01
+Date:                November 07, 2018
+Time:                21:30:38
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+Role         Level         Count
+ 
+ID         INTERVAL           1
+INPUT      INTERVAL          10
+INPUT      NOMINAL            2
+TARGET     BINARY             1
+ 
+ 
+ 
+ 
+ 
+       Input
+Obs    Variable       Group Variable
+ 
+  1    IMP_CLAGE      GRP_IMP_CLAGE
+  2    IMP_CLNO       GRP_IMP_CLNO
+  3    IMP_DEBTINC    GRP_IMP_DEBTINC
+  4    IMP_JOB        GRP_IMP_JOB
+  5    IMP_MORTDUE    GRP_IMP_MORTDUE
+  6    IMP_NINQ       GRP_IMP_NINQ
+  7    IMP_REASON     GRP_IMP_REASON
+  8    IMP_VALUE      GRP_IMP_VALUE
+  9    INDELINQ       GRP_INDELINQ
+ 10    INDEROG        GRP_INDEROG
+ 11    INYOJ          GRP_INYOJ
+ 12    LOAN           GRP_LOAN
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+                         Gini       Level for     Calculated      New                                       Gini
+Obs    Variable       Statistic    Interactive       Role        Role       Level           Label         Ordering
+ 
+  1    IMP_DEBTINC      52.626      INTERVAL       Input        Default    INTERVAL    Imputed DEBTINC        1
+  2    INDELINQ         27.069      INTERVAL       Input        Default    INTERVAL                           2
+  3    IMP_CLAGE        24.681      INTERVAL       Input        Default    INTERVAL    Imputed CLAGE          3
+  4    IMP_NINQ         21.326      INTERVAL       Input        Default    INTERVAL    Imputed NINQ           4
+  5    IMP_JOB          14.317      NOMINAL        Rejected     Default    NOMINAL     Imputed JOB            5
+  6    LOAN             12.733      INTERVAL       Rejected     Default    INTERVAL                           6
+  7    IMP_MORTDUE       8.233      INTERVAL       Rejected     Default    INTERVAL    Imputed MORTDUE        7
+  8    IMP_CLNO          6.666      INTERVAL       Rejected     Default    INTERVAL    Imputed CLNO           8
+  9    IMP_VALUE         6.340      INTERVAL       Rejected     Default    INTERVAL    Imputed VALUE          9
+ 10    IMP_REASON        2.763      NOMINAL        Rejected     Default    NOMINAL     Imputed REASON        10
+ 11    INYOJ             2.034      INTERVAL       Rejected     Default    INTERVAL                          11
+ 12    INDEROG           0.000      INTERVAL       Rejected     Default    INTERVAL                          12
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*

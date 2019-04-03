@@ -1,0 +1,3 @@
+label IMP_DELINQ = 'Imputed DELINQ';
+IMP_DELINQ = DELINQ;
+if missing(DELINQ) then IMP_DELINQ = 0.4622255303;

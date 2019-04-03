@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?><_ROOT_  Location="CATALOG" Catalog="SASHELP.EMMDFY.BINNING.SOURCE" MissingAsLevel="Y" ApplyLevelRule="N"
+ BinMethod="QUANTILE" NumBins="4" Freeze="N" CreateGrouping="N" CreateMethod="OVERWRITE"
+ ImportGrouping="N" VarSelMethod="GINI" GiniCutoff="20" GrpMsmnt="ORDINAL" MaxVar="10"
+ ClassGroupRare="Y" GroupCutoff="0.5" INTTARGETMETHOD="CUTMEAN" USERCUTVALUE="0.20"
+ RejectIntTarget="N" ForceRun="N" RunAction="Train" Component="Binning" Precision="2"
+ ImportData="" GroupMissing="N" DataNeeded="Y" RawCreateTime="1857245302.9" CreateTime="07NOV2018:21:28:23"
+ RunId="0c62eb7d-6922-4dfe-be0f-68c7534b5a34" RawLastTimeRun="1857245412.6" RawRunTime="26.458000183"
+ LastTimeRun="07NOV2018:21:30:13" RunTime="0 Hr. 0 Min. 26.46 Sec.">
+<VARIABLEPROPERTIES/>
+<FILEPROPERTIES ><![CDATA[
+USERTRAINCODE
+USERSCORECODE
+USERREPORTCODE
+]]>
+</FILEPROPERTIES></_ROOT_>

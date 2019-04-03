@@ -1,0 +1,155 @@
+*------------------------------------------------------------*
+User:                jmmorr01
+Date:                November 07, 2018
+Time:                21:35:48
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+            Measurement    Frequency
+Role           Level         Count
+ 
+INPUT        ORDINAL            4
+REJECTED     INTERVAL          10
+REJECTED     NOMINAL            2
+TARGET       BINARY             1
+ 
+ 
+ 
+ 
+ 
+The DMINE Procedure
+ 
+            R-Squares for Target Variable: BAD
+ 
+Effect                                   DF        R-Square
+ 
+Class: GRP_IMP_DEBTINC*GRP_INDELINQ       7        0.212108
+Group: GRP_IMP_DEBTINC*GRP_INDELINQ       5        0.209220
+Class: GRP_IMP_CLAGE*GRP_IMP_DEBTINC     15        0.194756
+Group: GRP_IMP_CLAGE*GRP_IMP_DEBTINC     11        0.192273
+Class: GRP_IMP_DEBTINC*GRP_IMP_NINQ      15        0.183911
+Group: GRP_IMP_DEBTINC*GRP_IMP_NINQ       5        0.180542
+Class: GRP_IMP_DEBTINC                    3        0.164389
+Group: GRP_IMP_DEBTINC                    2        0.161985
+Class: GRP_IMP_CLAGE*GRP_INDELINQ         7        0.088209
+Class: GRP_IMP_NINQ*GRP_INDELINQ          7        0.085372
+Class: GRP_IMP_CLAGE*GRP_IMP_NINQ        15        0.077333
+Group: GRP_IMP_CLAGE*GRP_IMP_NINQ         8        0.076443
+Class: GRP_INDELINQ                       1        0.056237
+Class: GRP_IMP_CLAGE                      3        0.032031
+Class: GRP_IMP_NINQ                       3        0.029385
+ 
+ 
+ 
+ 
+ 
+The DMINE Procedure
+ 
+                                            Effects Chosen for Target: BAD
+ 
+                                                                                                Sum of      Error Mean
+Effect                                   DF        R-Square         F Value    p-Value         Squares          Square
+ 
+Group: GRP_IMP_DEBTINC                    2        0.161985      287.624897     <.0001       77.033490        0.133913
+Class: GRP_INDELINQ                       1        0.038684      143.975950     <.0001       18.396447        0.127774
+Class: GRP_IMP_CLAGE                      3        0.020961       26.677440     <.0001        9.967982        0.124549
+Class: GRP_IMP_NINQ                       3        0.011442       14.765127     <.0001        5.441359        0.122843
+ 
+ 
+ 
+ 
+ 
+The DMINE Procedure
+ 
+       The Final ANOVA Table for Target: BAD
+ 
+                                              Sum of
+Effect            DF        R-Square         Squares
+ 
+Model              9        0.233072      110.839278
+Error           2969               .      364.719634
+Total           2978               .      475.558912
+ 
+ 
+ 
+ 
+ 
+The DMINE Procedure
+ 
+         Estimating logistic
+ 
+ Iter           Alpha            Beta
+ 
+    0       -2.000055        3.999323
+    1       -3.154507        6.005472
+    2       -3.585176        6.755065
+    3       -3.634633        6.841685
+    4       -3.635222        6.842722
+    4       -3.635222        6.842722
+ 
+ 
+ 
+ 
+ 
+The DMINE Procedure
+ 
+Classification Table for CUTOFF = 0.5000
+ 
+         Accuracy =  83.65
+ 
+                      Predicted
+Observed               1           0
+ 
+1                    218         376
+0                    111        2274
+Missing                0           0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-------------------------------------------------------------------
+Summary of Variable Selection from Training
+-------------------------------------------------------------------
+ 
+ 
+Target Name : BAD
+Target Level : BINARY
+Variable Selection Model : R-Square
+ 
+Total number of inputs : 4
+Total number of used inputs : 4
+Total number of unused inputs : 0
+Total number of rejected inputs : 1
+ 
+Maximum missing percentage : 50
+NOTE: There is no rejected variable by maximum missing percentage
+ 
+Maximum class level : 100
+NOTE:There is no rejected variable by maximum class level
+ 
+NOTE: 1 group variable has been created
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*

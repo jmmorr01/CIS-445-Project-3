@@ -1,0 +1,230 @@
+*------------------------------------------------------------*
+User:                jmmorr01
+Date:                November 07, 2018
+Time:                21:07:58
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      INTERVAL          10
+INPUT      NOMINAL            2
+TARGET     BINARY             1
+ 
+ 
+ 
+Variable Levels Summary
+(maximum 500 observations printed)
+ 
+                      Frequency
+Variable     Role       Count
+ 
+  BAD       TARGET        2
+ 
+ 
+ 
+Class Variable Summary Statistics
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN
+ 
+                               Number
+Data     Variable                of                               Mode                    Mode2
+Role       Name       Role     Levels    Missing    Mode       Percentage    Mode2      Percentage
+ 
+TRAIN     JOB        INPUT        7        279      Other        40.07       ProfExe      21.41
+TRAIN     REASON     INPUT        3        252      DebtCon      65.91       HomeImp      29.87
+TRAIN     BAD        TARGET       2          0      0            80.05       1            19.95
+ 
+ 
+ 
+Distribution of Class Target and Segment Variables
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN
+ 
+Data     Variable                        Frequency
+Role       Name       Role     Level         Count    Percent
+ 
+TRAIN      BAD       TARGET      0            4771    80.0503
+TRAIN      BAD       TARGET      1            1189    19.9497
+ 
+ 
+ 
+Interval Variable Summary Statistics
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN
+ 
+                                 Standard          Non
+Variable    Role         Mean    Deviation     Missing     Missing     Minimum      Median     Maximum    Skewness    Kurtosis
+ 
+CLAGE       INPUT    179.7663    85.81009         5652         308           0    173.4667    1168.234    1.343412    7.599549
+CLNO        INPUT     21.2961    10.13893         5738         222           0          20          71    0.775052    1.157673
+DEBTINC     INPUT    33.77992    8.601746         4693        1267    0.524499    34.81696    203.3121    2.852353    50.50404
+DELINQ      INPUT    0.449442    1.127266         5380         580           0           0          15     4.02315    23.56545
+DEROG       INPUT     0.25457    0.846047         5252         708           0           0          10     5.32087    36.87276
+LOAN        INPUT    18607.97    11207.48         5960           0        1100       16300       89900    2.023781     6.93259
+MORTDUE     INPUT    73760.82    44457.61         5442         518        2063       65017      399550    1.814481    6.481866
+NINQ        INPUT    1.186055    1.728675         5450         510           0           1          17    2.621984    9.786507
+VALUE       INPUT      101776    57385.78         5848         112        8000       89231      855909    3.053344     24.3628
+YOJ         INPUT    8.922268    7.573982         5445         515           0           7          41     0.98846    0.372072
+ 
+ 
+ 
+Class Variable Summary Statistics by Class Target
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN Variable Name=JOB
+ 
+                       Number
+             Target      of                             Mode                    Mode2
+Target       Level     Levels    Missing    Mode     Percentage     Mode2     Percentage
+ 
+BAD            0          7        256      Other      38.44       ProfExe      22.30
+BAD            1          7         23      Other      46.59       ProfExe      17.83
+_OVERALL_                 7        279      Other      40.07       ProfExe      21.41
+ 
+ 
+Data Role=TRAIN Variable Name=REASON
+ 
+                       Number
+             Target      of                               Mode                    Mode2
+Target       Level     Levels    Missing     Mode      Percentage     Mode2     Percentage
+ 
+BAD            0          3        204      DebtCon      66.72       HomeImp      29.01
+BAD            1          3         48      DebtCon      62.66       HomeImp      33.31
+_OVERALL_                 3        252      DebtCon      65.91       HomeImp      29.87
+ 
+ 
+ 
+Interval Variable Summary Statistics by Class Target
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN Variable=CLAGE
+ 
+             Target                                 Non                                        Standard
+Target       Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role     Label
+ 
+BAD            0       180.2841         230        4541    0.486711    649.7471    187.0024    84.46522     0.901459    2.191917    INPUT    CLAGE
+BAD            1       132.8667          78        1111           0    1168.234    150.1902    84.95229     3.480899    35.27536    INPUT    CLAGE
+_OVERALL_              173.4667         308        5652           0    1168.234    179.7663    85.81009     1.343412    7.599549    INPUT    CLAGE
+ 
+ 
+Data Role=TRAIN Variable=CLNO
+ 
+             Target                                 Non                                        Standard
+Target       Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role     Label
+ 
+BAD            0             20         169        4602           0          56    21.31704    9.682601     0.747661    0.881162    INPUT    CLNO
+BAD            1             20          53        1136           0          71    21.21127    11.81298     0.816305     1.32706    INPUT    CLNO
+_OVERALL_                    20         222        5738           0          71     21.2961    10.13893     0.775052    1.157673    INPUT    CLNO
+ 
+ 
+Data Role=TRAIN Variable=DEBTINC
+ 
+             Target                                 Non                                        Standard
+Target       Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role      Label
+ 
+BAD            0       34.54081         481        4290    0.720295    45.56984    33.25313    6.947482      -0.8929    0.860894    INPUT    DEBTINC
+BAD            1       38.07976         786         403    0.524499    203.3121    39.38764    17.72359     3.560839    25.86531    INPUT    DEBTINC
+_OVERALL_              34.81696        1267        4693    0.524499    203.3121    33.77992    8.601746     2.852353    50.50404    INPUT    DEBTINC
+ 
+ 
+Data Role=TRAIN Variable=DELINQ
+ 
+             Target                                 Non                                        Standard
+Target       Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role     Label
+ 
+BAD            0              0         508        4263           0           5    0.245133    0.674124     3.477141    13.77005    INPUT    DELINQ
+BAD            1              0          72        1117           0          15    1.229185    1.902961     2.304358    7.203498    INPUT    DELINQ
+_OVERALL_                     0         580        5380           0          15    0.449442    1.127266      4.02315    23.56545    INPUT    DELINQ
+ 
+ 
+Data Role=TRAIN Variable=DEROG
+ 
+             Target                                 Non                                        Standard
+Target       Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role     Label
+ 
+BAD            0              0         621        4150           0           6    0.134217     0.51449     5.741814    43.94492    INPUT    DEROG
+BAD            1              0          87        1102           0          10    0.707804    1.468381     3.087941    11.24174    INPUT    DEROG
+_OVERALL_                     0         708        5252           0          10     0.25457    0.846047      5.32087    36.87276    INPUT    DEROG
+ 
+ 
+Data Role=TRAIN Variable=LOAN
+ 
+             Target                                 Non                                        Standard
+Target       Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role     Label
+ 
+BAD            0          16900           0        4771        1700       89900    19028.11    11115.76     2.149444    7.802291    INPUT    LOAN
+BAD            1          14900           0        1189        1100       77400    16922.12    11418.46     1.665746     3.96585    INPUT    LOAN
+_OVERALL_                 16300           0        5960        1100       89900    18607.97    11207.48     2.023781     6.93259    INPUT    LOAN
+ 
+ 
+Data Role=TRAIN Variable=MORTDUE
+ 
+             Target                                 Non                                        Standard
+Target       Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role      Label
+ 
+BAD            0          66839         412        4359        2619      371003    74829.25    43584.99     1.679774      5.4621    INPUT    MORTDUE
+BAD            1          60279         106        1083        2063      399550    69460.45    47588.19     2.289764    9.692322    INPUT    MORTDUE
+_OVERALL_                 65017         518        5442        2063      399550    73760.82    44457.61     1.814481    6.481866    INPUT    MORTDUE
+ 
+ 
+Data Role=TRAIN Variable=NINQ
+ 
+             Target                                 Non                                        Standard
+Target       Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role     Label
+ 
+BAD            0              1         435        4336           0          11    1.032749    1.531322     2.675524    10.25032    INPUT    NINQ
+BAD            1              1          75        1114           0          17    1.782765    2.246976      2.10596    6.017996    INPUT    NINQ
+_OVERALL_                     1         510        5450           0          17    1.186055    1.728675     2.621984    9.786507    INPUT    NINQ
+ 
+ 
+Data Role=TRAIN Variable=VALUE
+ 
+             Target                                 Non                                        Standard
+Target       Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role     Label
+ 
+BAD            0          90658           7        4764        8000      471827    102595.9    52748.39      1.76656     5.50363    INPUT    VALUE
+BAD            1          82000         105        1084        8800      855909    98172.85    74339.82     4.887111    40.97745    INPUT    VALUE
+_OVERALL_                 89231         112        5848        8000      855909      101776    57385.78     3.053344     24.3628    INPUT    VALUE
+ 
+ 
+Data Role=TRAIN Variable=YOJ
+ 
+             Target                                 Non                                        Standard
+Target       Level       Median     Missing     Missing     Minimum     Maximum        Mean    Deviation    Skewness    Kurtosis    Role     Label
+ 
+BAD            0              7         450        4321           0          36    9.154941    7.676033     0.935511    0.158409    INPUT     YOJ
+BAD            1              6          65        1124           0          41    8.027802    7.100735     1.208867    1.470863    INPUT     YOJ
+_OVERALL_                     7         515        5445           0          41    8.922268    7.573982      0.98846    0.372072    INPUT     YOJ
+ 
+ 
+ 
+Chi-Square Statistics
+(maximum 500 observations printed)
+ 
+Data Role=TRAIN Target=BAD
+ 
+Input     Chi-Square    Df      Prob
+ 
+JOB         108.8035     6    <.0001
+REASON        8.3900     2    0.0151
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*

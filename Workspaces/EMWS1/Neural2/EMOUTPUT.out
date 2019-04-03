@@ -1,0 +1,513 @@
+*------------------------------------------------------------*
+User:                jmmorr01
+Date:                November 07, 2018
+Time:                21:41:41
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      INTERVAL          10
+INPUT      NOMINAL            2
+TARGET     BINARY             1
+ 
+ 
+ 
+ 
+Model Events
+ 
+                                  Number
+                   Measurement      of
+Target    Event       Level       Levels      Order       Label
+ 
+ BAD        1        BINARY          2      Descending
+ 
+ 
+ 
+ 
+Predicted and decision variables
+ 
+Type         Variable    Label
+ 
+TARGET        BAD
+PREDICTED     P_BAD1     Predicted: BAD=1
+RESIDUAL      R_BAD1     Residual: BAD=1
+PREDICTED     P_BAD0     Predicted: BAD=0
+RESIDUAL      R_BAD0     Residual: BAD=0
+FROM          F_BAD      From: BAD
+INTO          I_BAD      Into: BAD
+ 
+ 
+ 
+ 
+ 
+The NEURAL Procedure
+ 
+Preliminary       Starting         Objective         Number
+ Training          Random           Function           of        Terminating
+    Run             Seed             Value         Iterations     Criteria
+ 
+        1               12345    0.366125733811           10
+        2           920803261      0.3603441828           10
+        3          1272262437    0.343109273834           10
+        4          1285702264    0.353612230045           10
+        5          1356277451    0.349061260118           10
+ 
+ 
+ 
+ 
+ 
+The NEURAL Procedure
+ 
+                    Optimization Start
+                   Parameter Estimates
+                                                 Gradient
+                                                Objective
+  N Parameter                    Estimate        Function
+ 
+  1 IMP_CLAGE_H11               -0.219725     0.000005964
+  2 IMP_CLNO_H11                 0.013300       -0.000387
+  3 IMP_DEBTINC_H11              0.165512       -0.003852
+  4 IMP_DELINQ_H11               0.152426       -0.001622
+  5 IMP_DEROG_H11                0.114849       -0.007377
+  6 IMP_MORTDUE_H11             -0.173230        0.003753
+  7 IMP_NINQ_H11                 0.032669        0.008741
+  8 IMP_VALUE_H11                0.111829        0.002655
+  9 IMP_YOJ_H11                  0.056779       -0.002687
+ 10 LOAN_H11                    -0.190064        0.011981
+ 11 IMP_CLAGE_H12                0.337017        0.001684
+ 12 IMP_CLNO_H12                -0.737109     0.000054313
+ 13 IMP_DEBTINC_H12             -0.779086        0.004681
+ 14 IMP_DELINQ_H12               1.195337       -0.001324
+ 15 IMP_DEROG_H12                0.109099        0.002377
+ 16 IMP_MORTDUE_H12              0.860081        0.006111
+ 17 IMP_NINQ_H12                 0.423280        0.015905
+ 18 IMP_VALUE_H12                0.560313        0.006151
+ 19 IMP_YOJ_H12                 -0.020889        0.001157
+ 20 LOAN_H12                     0.618984        0.012357
+ 21 IMP_CLAGE_H13                0.066614        0.003039
+ 22 IMP_CLNO_H13                 0.160046        0.002111
+ 23 IMP_DEBTINC_H13             -0.425090       -0.000388
+ 24 IMP_DELINQ_H13              -0.081215        0.001445
+ 25 IMP_DEROG_H13               -0.830087        0.001536
+ 26 IMP_MORTDUE_H13              0.490800        0.001457
+ 27 IMP_NINQ_H13                -0.974374        0.000103
+ 28 IMP_VALUE_H13                0.290189        0.002353
+ 29 IMP_YOJ_H13                  0.647142        0.000752
+ 30 LOAN_H13                     0.103986       -0.000777
+ 31 IMP_JOBMgr_H11              -0.048052        0.001467
+ 32 IMP_JOBOffice_H11           -0.242677        0.002028
+ 33 IMP_JOBOther_H11            -0.098505        0.002908
+ 34 IMP_JOBProfExe_H11          -0.042455        0.001856
+ 35 IMP_JOBSales_H11             0.304344        0.001541
+ 36 IMP_REASONDebtCon_H11       -0.147405        0.002159
+ 37 IMP_JOBMgr_H12               0.237319        0.000885
+ 38 IMP_JOBOffice_H12            0.547810        0.000185
+ 39 IMP_JOBOther_H12            -0.097178        0.004333
+ 40 IMP_JOBProfExe_H12          -0.369651        0.000552
+ 41 IMP_JOBSales_H12             0.010733       -0.000259
+ 42 IMP_REASONDebtCon_H12       -0.286248        0.003718
+ 43 IMP_JOBMgr_H13              -0.041975        0.000228
+ 44 IMP_JOBOffice_H13            0.015235        0.000396
+ 45 IMP_JOBOther_H13            -0.173741        0.001332
+ 46 IMP_JOBProfExe_H13           0.205256        0.000894
+ 47 IMP_JOBSales_H13            -0.635295        0.001467
+ 48 IMP_REASONDebtCon_H13       -1.093252        0.000904
+ 49 BIAS_H11                    -0.156688        0.001922
+ 50 BIAS_H12                    -2.940863        0.006589
+ 51 BIAS_H13                    -1.320937     0.000085842
+ 52 H11_BAD1                     3.350894       -0.002409
+ 53 H12_BAD1                     2.485375       -0.000861
+ 54 H13_BAD1                    -1.702861        0.001445
+ 55 BIAS_BAD1                    0.160507        0.001786
+ 
+Value of Objective Function = 0.3431092738
+ 
+ 
+ 
+ 
+ 
+ 
+The NEURAL Procedure
+ 
+Levenberg-Marquardt Optimization
+ 
+ 
+Minimum Iterations                                0
+Maximum Iterations                               50
+Maximum Function Calls                   2147483647
+Maximum CPU Time                              14400
+ABSGCONV Gradient Criterion                 0.00001
+GCONV Gradient Criterion                       1E-8
+GCONV2 Gradient Criterion                         0
+ABSFCONV Function Criterion                       0
+FCONV Function Criterion                     0.0001
+FCONV2 Function Criterion                         0
+FSIZE Parameter                                   0
+ABSXCONV Parameter Change Criterion               0
+XCONV Parameter Change Criterion                  0
+XSIZE Parameter                                   0
+ABSCONV Function Criterion             0.0018348522
+Trust Region Initial Radius Factor                1
+Singularity Tolerance (SINGULAR)               1E-8
+ 
+Levenberg-Marquardt Optimization
+ 
+Scaling Update of More (1978)
+ 
+Parameter Estimates              55
+ 
+                                             Optimization Start
+ 
+Active Constraints                                  0  Objective Function                       0.3431092738
+Max Abs Gradient Element                 0.0159052135  Radius                                              1
+ 
+ 
+                                                                                                         Ratio
+                                                                                                       Between
+                                                                                                        Actual
+                                                                 Objective     Max Abs                     and
+                     Function         Active        Objective     Function    Gradient               Predicted
+Iter     Restarts       Calls    Constraints         Function       Change     Element     Lambda       Change
+ 
+   1            0           3              0          0.34136      0.00175      0.0148     0.0715        0.281
+   2            0           4              0          0.34112     0.000246      0.0145     0.0600       0.0382
+   3            0           5              0          0.33721      0.00390     0.00641      0.568        0.580
+   4            0           6              0          0.33658     0.000632     0.00559     0.0997        0.379
+   5            0           8              0          0.33614     0.000443     0.00484      0.842        0.392
+   6            0           9              0          0.33592     0.000214     0.00358      0.273        0.427
+   7            0          10              0          0.33586     0.000064     0.00593      0.306        0.141
+   8            0          11              0          0.33567     0.000195     0.00369      0.264        0.351
+   9            0          12              0          0.33561     0.000059     0.00586      0.293        0.126
+  10            0          13              0          0.33540     0.000210     0.00357      0.249        0.376
+  11            0          14              0          0.33530     0.000096     0.00528      0.301        0.200
+  12            0          15              0          0.33508     0.000224     0.00311      0.253        0.406
+  13            0          16              0          0.33498     0.000096     0.00450      0.309        0.200
+  14            0          17              0          0.33482     0.000158     0.00346      0.251        0.296
+  15            0          18              0          0.33475     0.000074     0.00373      0.313        0.148
+  16            0          19              0          0.33464     0.000106     0.00360      0.244        0.211
+  17            0          20              0          0.33461     0.000038     0.00317      0.298       0.0785
+  18            0          21              0          0.33442     0.000183     0.00140      1.089        0.531
+  19            0          22              0          0.33437     0.000055     0.00156      0.303        0.628
+  20            0          23              0          0.33432     0.000050    0.000974      0.278        0.633
+  21            0          24              0          0.33428     0.000043     0.00148      0.269        0.601
+  22            0          25              0          0.33416     0.000118    0.000870     0.0704        0.756
+  23            0          26              0          0.33400     0.000152     0.00198     0.0284        0.564
+  24            0          29              0          0.33394     0.000065     0.00103      0.407        0.325
+  25            0          30              0          0.33393     9.254E-6     0.00219      0.201       0.0741
+  26            0          31              0          0.33387     0.000060    0.000649      1.060        0.524
+  27            0          32              0          0.33385     0.000025     0.00102      0.316        0.744
+  28            0          33              0          0.33382     0.000022    0.000765      0.318        0.758
+  29            0          34              0          0.33378     0.000042     0.00103      0.143        0.868
+  30            0          35              0          0.33367     0.000115    0.000760     0.0420        0.913
+  31            0          36              0          0.33349     0.000175     0.00181     0.0172        0.754
+  32            0          40              0          0.33344     0.000053    0.000947      0.348        0.370
+  33            0          41              0          0.33342     0.000015     0.00176      0.177        0.154
+  34            0          42              0          0.33341     0.000017     0.00222      0.262        0.125
+  35            0          43              0          0.33339     0.000021     0.00190      0.252        0.146
+  36            0          44              0          0.33336     0.000022     0.00198      0.267        0.148
+  37            0          45              0          0.33335     0.000016     0.00194      0.243        0.112
+  38            0          46              0          0.33333     0.000021     0.00207      0.269        0.140
+  39            0          47              0          0.33331     0.000015     0.00188      0.244        0.109
+  40            0          48              0          0.33329     0.000020     0.00217      0.269        0.132
+  41            0          49              0          0.33328     0.000016     0.00180      0.245        0.110
+  42            0          50              0          0.33326     0.000019     0.00222      0.268        0.127
+ 
+                                            Optimization Results
+ 
+Iterations                                         42  Function Calls                                     52
+Jacobian Calls                                     44  Active Constraints                                  0
+Objective Function                       0.3332560989  Max Abs Gradient Element                 0.0022243042
+Lambda                                   0.2680346595  Actual Over Pred Change                  0.1269107531
+Radius                                   0.0164245936
+ 
+Convergence criterion (FCONV=0.0001) satisfied.
+ 
+NOTE: At least one element of the gradient is greater than 1e-3.
+ 
+ 
+ 
+ 
+ 
+ 
+The NEURAL Procedure
+ 
+                   Optimization Results
+                   Parameter Estimates
+                                                 Gradient
+                                                Objective
+  N Parameter                    Estimate        Function
+ 
+  1 IMP_CLAGE_H11               -0.179739       -0.000274
+  2 IMP_CLNO_H11                 0.001436     0.000033735
+  3 IMP_DEBTINC_H11              0.145770     0.000039562
+  4 IMP_DELINQ_H11               0.126934    -0.000091142
+  5 IMP_DEROG_H11                0.132840    -0.000039654
+  6 IMP_MORTDUE_H11             -0.205209       -0.000259
+  7 IMP_NINQ_H11                 0.036891        0.000234
+  8 IMP_VALUE_H11                0.154601       -0.000579
+  9 IMP_YOJ_H11                  0.088760       -0.000255
+ 10 LOAN_H11                    -0.213072        0.000178
+ 11 IMP_CLAGE_H12                0.455908        0.000557
+ 12 IMP_CLNO_H12                -1.336573        0.000261
+ 13 IMP_DEBTINC_H12             -1.277938        0.000436
+ 14 IMP_DELINQ_H12               2.225440        0.000235
+ 15 IMP_DEROG_H12               -0.016936     0.000000115
+ 16 IMP_MORTDUE_H12              1.491072       -0.000156
+ 17 IMP_NINQ_H12                 0.466538        0.000421
+ 18 IMP_VALUE_H12                0.421956       -0.000197
+ 19 IMP_YOJ_H12                  0.311805        0.000416
+ 20 LOAN_H12                     1.290580        0.000593
+ 21 IMP_CLAGE_H13                0.244726        0.002224
+ 22 IMP_CLNO_H13                 0.043419       -0.000363
+ 23 IMP_DEBTINC_H13             -0.761358       -0.000304
+ 24 IMP_DELINQ_H13              -0.064897        0.000417
+ 25 IMP_DEROG_H13               -0.680384       -0.000247
+ 26 IMP_MORTDUE_H13              0.454952        0.001190
+ 27 IMP_NINQ_H13                -1.302102       -0.000128
+ 28 IMP_VALUE_H13                0.118885        0.001003
+ 29 IMP_YOJ_H13                  0.956840    -0.000077487
+ 30 LOAN_H13                     0.445222       -0.000569
+ 31 IMP_JOBMgr_H11              -0.136073     0.000043590
+ 32 IMP_JOBOffice_H11           -0.327441        0.000156
+ 33 IMP_JOBOther_H11            -0.236763        0.000205
+ 34 IMP_JOBProfExe_H11          -0.177370    -0.000018495
+ 35 IMP_JOBSales_H11             0.036041        0.000135
+ 36 IMP_REASONDebtCon_H11       -0.081461     0.000046630
+ 37 IMP_JOBMgr_H12              -0.608914        0.000326
+ 38 IMP_JOBOffice_H12            1.057006        0.000295
+ 39 IMP_JOBOther_H12            -0.307780        0.000544
+ 40 IMP_JOBProfExe_H12          -0.571775        0.000256
+ 41 IMP_JOBSales_H12             0.112319        0.000231
+ 42 IMP_REASONDebtCon_H12       -0.626127        0.000668
+ 43 IMP_JOBMgr_H13               0.245501        0.000233
+ 44 IMP_JOBOffice_H13            0.239804        0.000104
+ 45 IMP_JOBOther_H13            -0.563430        0.000183
+ 46 IMP_JOBProfExe_H13           0.205155        0.000369
+ 47 IMP_JOBSales_H13            -3.352955     0.000063127
+ 48 IMP_REASONDebtCon_H13       -1.034822        0.000159
+ 49 BIAS_H11                    -0.347061        0.000276
+ 50 BIAS_H12                    -4.953136        0.000448
+ 51 BIAS_H13                    -2.054196        0.000628
+ 52 H11_BAD1                     4.248554     0.000060106
+ 53 H12_BAD1                     3.615537       -0.000122
+ 54 H13_BAD1                    -3.261785    -0.000023819
+ 55 BIAS_BAD1                    0.890959       -0.000340
+ 
+Value of Objective Function = 0.3332560989
+ 
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Fit Statistics
+ 
+Target=BAD Target Label=' '
+ 
+   Fit
+Statistics    Statistics Label                     Train    Validation
+ 
+ _DFT_        Total Degrees of Freedom           2979.00          .
+ _DFE_        Degrees of Freedom for Error       2924.00          .
+ _DFM_        Model Degrees of Freedom             55.00          .
+ _NW_         Number of Estimated Weights          55.00          .
+ _AIC_        Akaike's Information Criterion     2154.25          .
+ _SBC_        Schwarz's Bayesian Criterion       2484.21          .
+ _ASE_        Average Squared Error                 0.11         0.12
+ _MAX_        Maximum Absolute Error                0.99         1.00
+ _DIV_        Divisor for ASE                    5958.00      5962.00
+ _NOBS_       Sum of Frequencies                 2979.00      2981.00
+ _RASE_       Root Average Squared Error            0.32         0.35
+ _SSE_        Sum of Squared Errors               625.77       715.21
+ _SUMW_       Sum of Case Weights Times Freq     5958.00      5962.00
+ _FPE_        Final Prediction Error                0.11          .
+ _MSE_        Mean Squared Error                    0.11         0.12
+ _RFPE_       Root Final Prediction Error           0.33          .
+ _RMSE_       Root Mean Squared Error               0.33         0.35
+ _AVERR_      Average Error Function                0.34         0.40
+ _ERR_        Error Function                     2044.25      2364.58
+ _MISC_       Misclassification Rate                0.14         0.15
+ _WRONG_      Number of Wrong Classifications     414.00       450.00
+ 
+ 
+ 
+ 
+Classification Table
+ 
+Data Role=TRAIN Target Variable=BAD Target Label=' '
+ 
+                       Target        Outcome     Frequency       Total
+Target    Outcome    Percentage    Percentage      Count      Percentage
+ 
+  0          0         86.6766       97.6520        2329        78.1806
+  1          0         13.3234       60.2694         358        12.0175
+  0          1         19.1781        2.3480          56         1.8798
+  1          1         80.8219       39.7306         236         7.9221
+ 
+ 
+Data Role=VALIDATE Target Variable=BAD Target Label=' '
+ 
+                       Target        Outcome     Frequency       Total
+Target    Outcome    Percentage    Percentage      Count      Percentage
+ 
+  0          0         86.0656       96.8148        2310        77.4908
+  1          0         13.9344       62.8571         374        12.5461
+  0          1         25.5892        3.1852          76         2.5495
+  1          1         74.4108       37.1429         221         7.4136
+ 
+ 
+ 
+ 
+Event Classification Table
+ 
+Data Role=TRAIN Target=BAD Target Label=' '
+ 
+  False       True        False       True
+Negative    Negative    Positive    Positive
+ 
+   358        2329         56          236
+ 
+ 
+Data Role=VALIDATE Target=BAD Target Label=' '
+ 
+  False       True        False       True
+Negative    Negative    Positive    Positive
+ 
+   374        2310         76          221
+ 
+ 
+ 
+ 
+Assessment Score Rankings
+ 
+Data Role=TRAIN Target Variable=BAD Target Label=' '
+ 
+                                                                                    Mean
+                            Cumulative       %      Cumulative     Number of     Posterior
+Depth      Gain     Lift       Lift      Response   % Response   Observations   Probability
+ 
+   5    367.856   4.67856     4.67856     93.2886     93.2886         149         0.92250
+  10    303.905   3.39953     4.03905     67.7852     80.5369         149         0.62453
+  15    252.295   2.49075     3.52295     49.6644     70.2461         149         0.42985
+  20    201.246   1.48098     3.01246     29.5302     60.0671         149         0.34411
+  25    165.231   1.21171     2.65231     24.1611     52.8859         149         0.27990
+  30    135.611   0.87513     2.35611     17.4497     46.9799         149         0.23250
+  35    119.263   1.21171     2.19263     24.1611     43.7200         149         0.19425
+  40    101.111   0.74049     2.01111     14.7651     40.1007         149         0.16536
+  45     85.123   0.57220     1.85123     11.4094     36.9128         149         0.14363
+  50     74.352   0.77415     1.74352     15.4362     34.7651         149         0.12609
+  55     64.010   0.60586     1.64010     12.0805     32.7029         149         0.11056
+  60     54.550   0.50488     1.54550     10.0671     30.8166         149         0.09654
+  65     45.509   0.37025     1.45509      7.3826     29.0139         149         0.08266
+  70     37.280   0.30293     1.37280      6.0403     27.3730         149         0.07140
+  75     29.025   0.13463     1.29025      2.6846     25.7271         149         0.06064
+  80     22.013   0.16829     1.22013      3.3557     24.3289         149         0.05083
+  85     16.222   0.23561     1.16222      4.6980     23.1741         149         0.03947
+  90     10.513   0.13463     1.10513      2.6846     22.0358         149         0.02724
+  95      5.228   0.10098     1.05228      2.0134     20.9820         149         0.01451
+ 100      0.000   0.00000     1.00000      0.0000     19.9396         148         0.00578
+ 
+ 
+Data Role=VALIDATE Target Variable=BAD Target Label=' '
+ 
+                                                                                    Mean
+                            Cumulative       %      Cumulative     Number of     Posterior
+Depth      Gain     Lift       Lift      Response   % Response   Observations   Probability
+ 
+   5    307.487   4.07487     4.07487     81.3333     81.3333         150         0.89392
+  10    270.311   3.32885     3.70311     66.4430     73.9130         149         0.60282
+  15    199.710   1.58036     2.99710     31.5436     59.8214         149         0.44033
+  20    164.351   1.58036     2.64351     31.5436     52.7638         149         0.35376
+  25    137.744   1.31136     2.37744     26.1745     47.4531         149         0.29132
+  30    117.757   1.17687     2.17757     23.4899     43.4637         149         0.24021
+  35    101.555   1.04237     2.01555     20.8054     40.2299         149         0.20277
+  40     86.041   0.77337     1.86041     15.4362     37.1333         149         0.17194
+  45     70.238   0.43712     1.70238      8.7248     33.9791         149         0.14792
+  50     60.282   0.70612     1.60282     14.0940     31.9920         149         0.13101
+  55     50.914   0.57162     1.50914     11.4094     30.1220         149         0.11385
+  60     43.945   0.67249     1.43945     13.4228     28.7311         149         0.09922
+  65     36.498   0.47075     1.36498      9.3960     27.2446         149         0.08548
+  70     29.633   0.40350     1.29633      8.0537     25.8745         149         0.07326
+  75     24.804   0.57162     1.24804     11.4094     24.9106         149         0.06268
+  80     18.477   0.23537     1.18477      4.6980     23.6478         149         0.05066
+  85     13.290   0.30262     1.13290      6.0403     22.6125         149         0.03893
+  90      8.866   0.33625     1.08866      6.7114     21.7294         149         0.02498
+  95      4.200   0.20175     1.04200      4.0268     20.7980         149         0.01340
+ 100      0.000   0.20175     1.00000      4.0268     19.9597         149         0.00519
+ 
+ 
+ 
+ 
+Assessment Score Distribution
+ 
+Data Role=TRAIN Target Variable=BAD Target Label=' '
+ 
+ Posterior     Number                     Mean
+Probability      of      Number of     Posterior
+   Range       Events    Nonevents    Probability    Percentage
+ 
+ 0.95-1.00       68           1         0.98791         2.3162
+ 0.90-0.95       24           2         0.92460         0.8728
+ 0.85-0.90       20           2         0.87594         0.7385
+ 0.80-0.85       18           2         0.82847         0.6714
+ 0.75-0.80       14           6         0.77362         0.6714
+ 0.70-0.75       21           6         0.72704         0.9063
+ 0.65-0.70       14           6         0.67968         0.6714
+ 0.60-0.65       16          15         0.62520         1.0406
+ 0.55-0.60       15           9         0.57738         0.8056
+ 0.50-0.55       26           7         0.53193         1.1078
+ 0.45-0.50       26          23         0.47387         1.6448
+ 0.40-0.45       38          37         0.42354         2.5176
+ 0.35-0.40       30          60         0.37250         3.0211
+ 0.30-0.35       37          74         0.32605         3.7261
+ 0.25-0.30       27         106         0.27489         4.4646
+ 0.20-0.25       37         159         0.22495         6.5794
+ 0.15-0.20       50         227         0.17178         9.2984
+ 0.10-0.15       57         399         0.12288        15.3072
+ 0.05-0.10       40         598         0.07314        21.4166
+ 0.00-0.05       16         646         0.02442        22.2222
+ 
+ 
+Data Role=VALIDATE Target Variable=BAD Target Label=' '
+ 
+ Posterior     Number                     Mean
+Probability      of      Number of     Posterior
+   Range       Events    Nonevents    Probability    Percentage
+ 
+ 0.95-1.00       52           1         0.98449         1.7779
+ 0.90-0.95       21           5         0.91989         0.8722
+ 0.85-0.90       17           3         0.87994         0.6709
+ 0.80-0.85       16           7         0.83318         0.7716
+ 0.75-0.80        9           8         0.77519         0.5703
+ 0.70-0.75       18           7         0.72150         0.8386
+ 0.65-0.70       19           6         0.67787         0.8386
+ 0.60-0.65       25          10         0.62592         1.1741
+ 0.55-0.60       24           9         0.57461         1.1070
+ 0.50-0.55       20          20         0.52552         1.3418
+ 0.45-0.50       28          34         0.47473         2.0798
+ 0.40-0.45       12          59         0.42369         2.3818
+ 0.35-0.40       34          67         0.37413         3.3881
+ 0.30-0.35       37          84         0.32252         4.0590
+ 0.25-0.30       35          93         0.27398         4.2939
+ 0.20-0.25       43         160         0.22444         6.8098
+ 0.15-0.20       39         220         0.17345         8.6884
+ 0.10-0.15       57         409         0.12448        15.6323
+ 0.05-0.10       55         562         0.07369        20.6978
+ 0.00-0.05       34         622         0.02307        22.0060

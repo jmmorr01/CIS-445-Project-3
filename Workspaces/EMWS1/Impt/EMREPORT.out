@@ -1,0 +1,42 @@
+ 
+                                                                                                                                                                                                                                                                
+ 
+Imputation Summary
+Number Of Observations
+
+                                                                                       Number of
+Variable    Impute    Imputed                                 Measurement                Missing
+  Name      Method    Variable       Impute Value    Role        Level       Label     for TRAIN
+
+CLAGE       MEAN      IMP_CLAGE      181.15305208    INPUT     INTERVAL                      159
+CLNO        MEAN      IMP_CLNO       21.277078966    INPUT     INTERVAL                      117
+DEBTINC     MEAN      IMP_DEBTINC    33.786945547    INPUT     INTERVAL                      615
+DELINQ      MEAN      IMP_DELINQ     0.4622255303    INPUT     INTERVAL                      292
+DEROG       MEAN      IMP_DEROG      0.2409592691    INPUT     INTERVAL                      352
+JOB         COUNT     IMP_JOB        Other           INPUT     NOMINAL                       141
+MORTDUE     MEAN      IMP_MORTDUE     73574.90271    INPUT     INTERVAL                      252
+NINQ        MEAN      IMP_NINQ       1.1569852941    INPUT     INTERVAL                      259
+REASON      COUNT     IMP_REASON     DebtCon         INPUT     NOMINAL                       131
+VALUE       MEAN      IMP_VALUE      102480.61861    INPUT     INTERVAL                       54
+YOJ         MEAN      IMP_YOJ         8.868358373    INPUT     INTERVAL                      250
+ 
+                                                                                                                                                                                                                                                                
+ 
+ 
+Variable Distribution Training Data
+
+        Number of
+          Missing    Number of    Percent of
+Obs     for TRAIN    Variables     Variables
+
+  1           615        1          9.09091 
+  2           352        1          9.09091 
+  3           292        1          9.09091 
+  4           259        1          9.09091 
+  5           252        1          9.09091 
+  6           250        1          9.09091 
+  7           159        1          9.09091 
+  8           141        1          9.09091 
+  9           131        1          9.09091 
+ 10           117        1          9.09091 
+ 11            54        1          9.09091 
